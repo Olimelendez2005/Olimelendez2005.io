@@ -1,0 +1,99 @@
+
+body {
+    background-color: rgb(245, 241, 2);
+    margin: 0; 
+}
+
+header {
+    background-color: #d6bb1f; 
+    text-align: center;
+    padding: 20px;
+    color: white;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.project {
+    width: 300px; 
+    margin: 20px; 
+    display: inline-block; 
+    text-align: center;
+    border: 1px solid #ddd;
+    padding: 10px;
+}
+
+
+.project img {
+    max-width: 100%;
+    height: auto;
+}
+
+.project h2 {
+    margin-top: 10px;
+    font-size: 1.5rem;
+}
+
+.project p {
+    font-size: 1rem;
+}
+
+.project a {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 5px 10px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.project a:hover {
+    background-color: #0056b3;
+}
+
+
+.contact-section {
+    background-color: #2208b3; 
+    text-align: center;
+    padding: 20px;
+    color: white;
+}
+
+.contact-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: white;
+    color: #661fe9; 
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.contact-button:hover {
+    background-color: #e21b53; 
+    color: white;
+}
+
+
+.profile-section {
+    background-color: #0fbac0; 
+    text-align: center;
+    padding: 20px;
+    color: rgb(173, 175, 41);
+}
+
+.profile-picture {
+    max-width: 200px;
+    height: auto;
+    border-radius: 50%;
+    margin: 20px 0;
+}
+
+.profile-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
